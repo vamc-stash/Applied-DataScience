@@ -1,0 +1,27 @@
+Install anaconda 
+
+-------------------------
+
+Steps to launch Jupyter notebook:
+
+start anaconda in linux :
+	1. conda activate
+	2. anaconda-navigator
+quit anaconda :
+	1. conda deactivate
+
+---------------------
+
+creating a virtual environment and launch jupyter notebook:
+	
+Activation:
+
+	1. conda create -n v1 
+		- v1 is name of the virtual environment.
+	2. conda activate v1
+	3. jupyter notebook
+
+Deactivation:
+
+	1. conda deactivate
+
